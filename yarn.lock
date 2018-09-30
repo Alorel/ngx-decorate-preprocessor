@@ -859,9 +859,9 @@ co@^4.6.0:
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/co/-/co-4.6.0.tgz#6ea6bdf3d853ae54ccb8e47bfa0bf3f9031fb184"
 
-code-block-writer@^7.2.1:
-  version "7.2.1"
-  resolved "https://registry.yarnpkg.com/code-block-writer/-/code-block-writer-7.2.1.tgz#c03073518fdb98d4d1a5bb46dcd60137958b5a3a"
+code-block-writer@^7.2.2:
+  version "7.2.2"
+  resolved "https://registry.yarnpkg.com/code-block-writer/-/code-block-writer-7.2.2.tgz#14ec0120de9a65d2cc5d214561d51d1660dddbb1"
 
 code-point-at@^1.0.0:
   version "1.1.0"
@@ -4449,12 +4449,12 @@ ts-node@~7.0.1:
     source-map-support "^0.5.6"
     yn "^2.0.0"
 
-ts-simple-ast@15.0.1:
-  version "15.0.1"
-  resolved "https://registry.yarnpkg.com/ts-simple-ast/-/ts-simple-ast-15.0.1.tgz#104e732ab6927460ea1f1e5286cded6cbdc9ac5b"
+ts-simple-ast@16.0.0:
+  version "16.0.0"
+  resolved "https://registry.yarnpkg.com/ts-simple-ast/-/ts-simple-ast-16.0.0.tgz#38973bc6cf27ed59d5f9ba0952b6029673386e22"
   dependencies:
     "@dsherret/to-absolute-glob" "^2.0.2"
-    code-block-writer "^7.2.1"
+    code-block-writer "^7.2.2"
     fs-extra "^6.0.1"
     glob-parent "^3.1.0"
     globby "^8.0.1"
@@ -4462,7 +4462,7 @@ ts-simple-ast@15.0.1:
     multimatch "^2.1.0"
     object-assign "^4.1.1"
     tslib "^1.9.0"
-    typescript "3.0.1"
+    typescript "3.0.3"
 
 tslib@1.9.3, tslib@^1.6.0, tslib@^1.8.0, tslib@^1.8.1, tslib@^1.9.0:
   version "1.9.3"
@@ -4513,11 +4513,7 @@ typescript-lazy-get-decorator@1.2.2, typescript-lazy-get-decorator@^1.2.0:
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/typescript-lazy-get-decorator/-/typescript-lazy-get-decorator-1.2.2.tgz#f7ffe9f9225b830f851f2701376409cfd640100e"
 
-typescript@3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.0.1.tgz#43738f29585d3a87575520a4b93ab6026ef11fdb"
-
-typescript@~3.0.3:
+typescript@3.0.3, typescript@~3.0.3:
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.0.3.tgz#4853b3e275ecdaa27f78fda46dc273a7eb7fc1c8"
 

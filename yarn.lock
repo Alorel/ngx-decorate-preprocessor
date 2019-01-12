@@ -4695,9 +4695,10 @@ ts-node@~7.0.1:
     source-map-support "^0.5.6"
     yn "^2.0.0"
 
-ts-simple-ast@^17.0.1:
-  version "17.0.1"
-  resolved "https://registry.yarnpkg.com/ts-simple-ast/-/ts-simple-ast-17.0.1.tgz#6f5d46b2ecd3f1fff0a38bff2bcd15995b8bdc58"
+ts-simple-ast@^21.0.0:
+  version "21.0.0"
+  resolved "https://registry.yarnpkg.com/ts-simple-ast/-/ts-simple-ast-21.0.0.tgz#192c5bb7ba529d64faa08404e09abaeb3a5c4e4d"
+  integrity sha512-pEDK5I1KC/fqtxdoeJYYmgFzfkdfZNoO/hFUBWLWRxXwQm4HpDYk/0VHd5ZbLf5wOXRMcUxJreEL7RPNv2oX7A==
   dependencies:
     "@dsherret/to-absolute-glob" "^2.0.2"
     code-block-writer "^7.2.2"

@@ -55,7 +55,7 @@
     "@types/node": "~11.11.0",
     "@types/tmp": "~0.0.33",
     "@types/uuid": "~3.4.4",
-    "@types/yargs": "~12.0.0",
+    "@types/yargs": "~12.0.10",
     "chai": "~4.2.0",
     "coveralls": "~3.0.3",
     "cross-env": "~5.2.0",

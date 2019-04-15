@@ -66,7 +66,7 @@
     "rimraf": "~2.6.2",
     "semantic-release": "~15.13.0",
     "source-map-support": "~0.5.9",
-    "ts-node": "~8.0.2",
+    "ts-node": "~8.1.0",
     "typescript": "~3.3.3",
     "uuid": "~3.3.2"
   }

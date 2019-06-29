@@ -990,7 +990,7 @@ caseless@~0.12.0:
   resolved "https://registry.yarnpkg.com/caseless/-/caseless-0.12.0.tgz#1b681c21ff84033c826543090689420d187151dc"
   integrity sha1-G2gcIf+EAzyCZUMJBolCDRhxUdw=
 
-chai@~4.2.0:
+chai@^4.2.0, chai@~4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/chai/-/chai-4.2.0.tgz#760aa72cf20e3795e84b12877ce0e83737aa29e5"
   integrity sha512-XQU3bhBukrOsQCuwZndwGcCVQHyZi53fQ6Ys1Fym7E4olpIqqZZhhoFJoaKVvV17lWQoXYwgWN2nF5crA8J2jw==
@@ -1125,10 +1125,12 @@ cmd-shim@^2.0.2, cmd-shim@~2.0.2:
     graceful-fs "^4.1.2"
     mkdirp "~0.5.0"
 
-code-block-writer@^7.2.2:
-  version "7.2.2"
-  resolved "https://registry.yarnpkg.com/code-block-writer/-/code-block-writer-7.2.2.tgz#14ec0120de9a65d2cc5d214561d51d1660dddbb1"
-  integrity sha512-8SyXM1bWsMDCzvCoTdnDBhnnUbHntxcba4ApBIO3S3QX0M2Iq0xZCzs6SYdBOGaSUi4drysvrAK15JoXhlpsvQ==
+code-block-writer@9.4.0:
+  version "9.4.0"
+  resolved "https://registry.yarnpkg.com/code-block-writer/-/code-block-writer-9.4.0.tgz#99f835317ed56b61775f64f862aa87704d27a4d4"
+  integrity sha512-EVlBZXymEGS0OgR0OaEX2mRgZmeH8T5B+wDHiLwYGZ69PjlRRiHeNy/TP80s5lZH8ztKtTrSxb90CiyYvzQ2jQ==
+  dependencies:
+    chai "^4.2.0"
 
 code-point-at@^1.0.0:
   version "1.1.0"
@@ -5653,19 +5655,18 @@ trim-right@^1.0.1:
   resolved "https://registry.yarnpkg.com/trim-right/-/trim-right-1.0.1.tgz#cb2e1203067e0c8de1f614094b9fe45704ea6003"
   integrity sha1-yy4SAwZ+DI3h9hQJS5/kVwTqYAM=
 
-ts-morph@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/ts-morph/-/ts-morph-1.2.0.tgz#d53f899102afe73a526ff2b3e88baa8cb0862fc3"
-  integrity sha512-opcTc8jufb5toKxCsXOvvJvgSBT02F7mu7dK48Vlp77R88L5wMDr63umg6p67T+ZD/s2UghMcmUEnKWCtumOrQ==
+ts-morph@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/ts-morph/-/ts-morph-3.0.0.tgz#f9e0d37d28528bdecec0b2b927e10efa8e1052a3"
+  integrity sha512-C4aAxpO9ydMSB4zi2JyeFTxD3/OAdf4F4sUCp3WIMZVo8lwcp4vXP2OqDFiE6rQHYEi2cYk8aBo1QS68VbsNIg==
   dependencies:
     "@dsherret/to-absolute-glob" "^2.0.2"
-    code-block-writer "^7.2.2"
+    code-block-writer "9.4.0"
     fs-extra "^7.0.0"
     glob-parent "^3.1.0"
     globby "^8.0.1"
     is-negated-glob "^1.0.0"
     multimatch "^2.1.0"
-    tslib "^1.9.0"
     typescript "^3.0.1"
 
 ts-node@~8.3.0:

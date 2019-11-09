@@ -28,7 +28,7 @@
   "author": "Arturas Molcanovas <a.molcanovas@gmail.com>",
   "private": false,
   "dependencies": {
-    "chalk": "^2.4.1",
+    "chalk": "^3.0.0",
     "glob": "^7.1.3",
     "lodash": "^4.17.14",
     "tmp": "^0.1.0",

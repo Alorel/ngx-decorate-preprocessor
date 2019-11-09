@@ -2,12 +2,12 @@
 # yarn lockfile v1
 
 
-"@alorel-personal/build-tools@4.7.16":
-  version "4.7.16"
-  resolved "https://registry.yarnpkg.com/@alorel-personal/build-tools/-/build-tools-4.7.16.tgz#9b4ec1d5629e0ca62060a5c9f4a5b47d422783f0"
-  integrity sha512-48ZGTRue6lAZFuPJ1XlJ8ZWtz2Svyv5VkLA5PPh1mSZidhwo7K+orcYyWFCrMkxGpFnb9RKva9wYpq4ZzFo8Ww==
+"@alorel-personal/build-tools@4.7.17":
+  version "4.7.17"
+  resolved "https://registry.yarnpkg.com/@alorel-personal/build-tools/-/build-tools-4.7.17.tgz#bdff49355957fec19908629bdfd4ccf45c56b9bf"
+  integrity sha512-iL8YsrrtK05+UKAp0wSp34Blv3l+NQjjQyW77rQwXGBdIP/8w9T2eX+bf8Eo+oQdFqANQW7hUJtCkE7DEfUThA==
   dependencies:
-    chalk "^2.4.2"
+    chalk "^3.0.0"
     cross-spawn "^7.0.0"
     custom-tslint-formatters "2.4.0"
     delete-empty "^3.0.0"

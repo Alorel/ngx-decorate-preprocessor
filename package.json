@@ -35,7 +35,7 @@
     "ts-morph": "^1.2.0",
     "tslib": "^1.9.3",
     "lazy-get-decorator": "^2.0.0",
-    "yargs": "^14.0.0"
+    "yargs": "^15.0.1"
   },
   "devDependencies": {
     "@alorel-personal/build-tools": "4.7.18",

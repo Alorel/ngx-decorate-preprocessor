@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@alorel-personal/build-tools@4.7.18":
-  version "4.7.18"
-  resolved "https://registry.yarnpkg.com/@alorel-personal/build-tools/-/build-tools-4.7.18.tgz#ef1b74abde08c6904a9ddd3b982c167dd8387e1e"
-  integrity sha512-Vrwn5UHg5V8fCrQhOPyTzP3E2uUPyIWO6cgaRVvLBZBYu2r0crOZ5EF3v9gpevtJbH8KevYR0mZ/9vMTWRODaQ==
+"@alorel-personal/build-tools@4.7.19":
+  version "4.7.19"
+  resolved "https://registry.yarnpkg.com/@alorel-personal/build-tools/-/build-tools-4.7.19.tgz#3f5ef9aa4ee8a3e8e59924e0c2a6f724722edbc8"
+  integrity sha512-HIsqBVMeJskK04CTxihcOj2wcXhdamQgujw4J4vtUgO2itgosWMro3FPAAf6BA9QcrvUnWI4YbbEbpF43eaf4Q==
   dependencies:
     chalk "^3.0.0"
     cross-spawn "^7.0.0"
@@ -33,7 +33,7 @@
     typescript "^3.6.3"
     uglify-es "~3.3.9"
     yamljs "^0.3.0"
-    yargs "^14.0.0"
+    yargs "^15.0.1"
 
 "@alorel-personal/conventional-changelog-alorel@2.1.1":
   version "2.1.1"

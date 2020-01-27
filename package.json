@@ -45,7 +45,7 @@
     "@semantic-release/changelog": "~3.0.0",
     "@semantic-release/exec": "~3.3.1",
     "@semantic-release/git": "~7.0.3",
-    "@semantic-release/npm": "~5.3.1",
+    "@semantic-release/npm": "~7.0.0",
     "@types/chai": "~4.2.0",
     "@types/cross-spawn": "~6.0.0",
     "@types/fs-extra": "~8.0.0",
